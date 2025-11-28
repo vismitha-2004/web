@@ -1,0 +1,71 @@
+* {
+    box-sizing: border-box;
+    margin: 3;
+    padding: 5;
+}
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: antiquewhite;
+    color: black;
+    line-height: 1.6em;
+}
+.food img {
+    width: 100%;
+    height: 820px;
+    object-fit: cover;
+}
+.dosa img {
+    width: 50%;
+    height: 10px;
+    object-fit: cover;
+}
+.idli img {
+    width: 20%;
+    height: 10px;
+    object-fit:cover;
+}
+header {
+    background-color: coral;
+    color: antiquewhite;
+    padding: 20px;
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold; /* Fixed from 'font weight' */
+    letter-spacing: 1px;
+}
+
+.menu-section {
+    padding: 20px 10px;
+    text-align: center;
+    background-color: antiquewhite;
+}
+.menu-section h2 {
+    font-size: 30px;
+    color: crimson;
+    margin-bottom: 30px;
+}
+/* Fixed selector from 'menu item' to '.menu-item' with a dot and fixed flex spacing */
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Fixed from 'space between' */
+    margin-bottom: 100px;
+}
+.menu-image {
+    width: 80px;
+    height: auto;
+    margin-right: 16px;
+}
+.menu-details {
+    flex-grow: 1;
+}
+.menu-price {
+    font-weight: bold;
+    margin-left: 16px;
+}
+.same-size{
+    width:300px;
+    height:200px;
+    object-fit:cover;
+
+}
